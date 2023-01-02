@@ -4,8 +4,8 @@ import smtplib
 import time
 
 # USER DATA
-MY_LAT = 7.207400
-MY_lNG = 79.837639
+MY_LAT = 
+MY_lNG = 
 
 
 def location_compare():
@@ -19,8 +19,8 @@ def location_compare():
 
 
 def email_sender():
-    USER = 'anujadilshan8@gmail.com'
-    PASSWORD = 'qxuvfyfsxbrzadnp'
+    USER = ''
+    PASSWORD = ''
 
     with smtplib.SMTP('smtp.gmail.com') as connection:
         connection.starttls()
